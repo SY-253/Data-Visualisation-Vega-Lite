@@ -13,7 +13,7 @@
             "lookup": "properties.NAME_LONG",
             "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/SY-253/FIT3179/main/Petrol%20Dataset.csv"
+                    "url": "https://raw.githubusercontent.com/SY-253/FIT3179/main/Petrol%20Dataset%202023.csv"
                 },
                 "key": "Country",
                 "fields": ["Price Per Liter (USD)"]
