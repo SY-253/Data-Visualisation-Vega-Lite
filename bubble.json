@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Petrol Data Worldwide",
+    "title": "Global GDP, Petrol Prices and Consumption",
     "width": 800,
     "height": 400,
     "data": {
