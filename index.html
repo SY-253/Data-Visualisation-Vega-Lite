@@ -12,31 +12,85 @@
 
     <script src="vega_lite_vis.js"></script>
 
+    <style>
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        div {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: darkblue;
+            text-align: center;
+        }
+
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: mediumblue;
+            text-align: center;
+        }
+
+        span {
+            color: cornflowerblue;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+    </style>
+
     <title>Petrol Price and Consumption Worldwide</title>
 </head>
 
 <body>
-    <h1 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  color: goldenrod;  text-align: center">Petrol Price and Consumption Worldwide</h1>
+    <h1>Petrol Price and Consumption Worldwide</h1>
 
-    <div id="map" style="text-align: center"></div>
-    
-    <p style="font-family: Georgia, 'Times New Roman', Times, serif;  color: darkblue;">Some description</p>
+    <div class="album py-5">
+        <div class="container">
+            <div id="map"></div>
+            
+            <p style="margin-left: 200px; margin-right: 400px;">
+                Petrol prices are notably <span>higher</span> in <span>Europe</span>, this is due to <span>high taxes</span> and <span>environmental regulations</span>
+                <br>aimed at reducing carbon emissions. <span>Middle Eastern</span> countries such as Saudi Arabia and United Arab Emirates
+                <br>have <span>significantly lower</span> petrol prices due to <span>subsidies</span> and government control over <span>oil production</span>.
+                <br> Petrol price in <span>North Korea</span> is the <span>highest</span> in the world, at $14.5 per liter.
+            </p>
+        </div>
 
-    <br>
-    <br>
-    <br>
+            <br>
+            <br>
+            <br>
 
-    <div id="bubble" style="text-align: center"></div>
+        <div class="container">
+            <div id="donut"></div>
 
-    <p style="font-family: Georgia, 'Times New Roman', Times, serif;  color: darkblue;">Some desccription</p>
+            <p style="margin-left: 350px; margin-right: 400px;">
+                <span>Asia</span> contributes the <span>most</span> to global daily oil consumption because of its <span>enormous population</span> and <span>growing economies</span>.
+                <span>Oceania</span> has the <span>lowest</span> daily oil consumption as the region has a relatively <span>lower population</span>.
+                <span>The United States of America</span> has the <span>highest</span> daily oil consumption among all countries.
+            </p>
+        </div>
 
-    <br>
-    <br>
-    <br>
+            <br>
+            <br>
+            <br>
 
-    <div id="donut" style="text-align: center"></div>
+        <div class="container">
+            <div id="bubble"></div>
 
-    <p style="font-family: Georgia, 'Times New Roman', Times, serif;  color: darkblue;">Some description</p>
+            <p>
+                <span>African countries</span> generally have low to moderate petrol prices, lower GDP per capita and daily oil consumption.<br>
+                <span>Asian countries</span> are sparsely distributed in the chart.
+                <span>European countries</span> generally have<br>higher petrol prices and GDP per capita, and moderate daily oil consumption.
+                <span>North American countries</span> generally<br>have moderate petrol prices while there are few countries that contributes<br>significantly more in daily oil consumption.
+            </p>
+        </div>    
+    </div>        
 </body>
 
 </html>
